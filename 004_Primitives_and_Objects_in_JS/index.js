@@ -9,6 +9,7 @@ let f = Symbol("I am Rahul Sharma.")
 let g = undefined
 
 console.log(d)
+console.log(typeof(a))
 
 // Non-premitive Datatypes - Object
 
