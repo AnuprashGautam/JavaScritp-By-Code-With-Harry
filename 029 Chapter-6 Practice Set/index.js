@@ -34,6 +34,6 @@ while(bg!="exit"){
     {
         break
     }
-    console.body.style.background=bg
+    document.body.style.background=bg
 }
 
