@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    background: linear-gradient(to right, yellow, orange);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+}
+
+li{
+    height: 50px;
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+}
+

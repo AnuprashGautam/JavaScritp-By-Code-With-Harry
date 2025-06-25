@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul id="elements">
+            <li>Home</li>
+            <li>Skills</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <div>
+        <ol id="lists">
+            <li>First Element</li>
+            <li>Second Element</li>
+            <li>Third Element</li>
+        </ol>
+    </div>
+    
+    <script>
+        document.getElementById("elements").firstElementChild.style.color="red"
+        document.getElementById("elements").firstElementChild.style.color="red"
+
+        document.getElementById("lists").firstElementChild.style.color="green"
+        document.getElementById("lists").lastElementChild.style.color="green"
+
+        let listItems=document.querySelectorAll("li")
+        console.log(typeof listItems)
+        listItems.forEach(
+            function(item){
+                item.style.color="grey"
+            }
+        )
+</script>
+</body>
+</html>
