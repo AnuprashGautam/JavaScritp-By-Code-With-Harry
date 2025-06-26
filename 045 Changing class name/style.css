@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.grey-black{
+    background-color: grey;
+    color: black;
+}
+
+.cyan-red{
+    background-color: cyan;
+    color: red;
+}
+
+.dark-theme{
+    background-color: black;
+    color: white;
+}
+
+.beautify{
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.container{
+    width: 50%;
+    height: 500px;
+    border: 5px solid grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
