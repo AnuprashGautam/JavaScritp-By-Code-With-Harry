@@ -60,12 +60,20 @@ let promise4 = () => new Promise(resolve => setTimeout(() => resolve(40), 3000))
     try {
         console.time(); // Start timer
 
-        let p1 = await promise1(); // waits for promise1 to resolve
-        let p2 = await promise2(); // then waits for promise2
-        let p3 = await promise3(); // then waits for promise3
-        let p4 = await promise4(); // then waits for promise4
+        // let p1 = await promise1(); // waits for promise1 to resolve
+        // let p2 = await promise2(); // then waits for promise2
+        // let p3 = await promise3(); // then waits for promise3
+        // let p4 = await promise4(); // then waits for promise4
 
-        console.log(p1, p2, p3, p4);
+        // console.log(p1, p2, p3, p4);
+
+        let p1= promise1();
+        let p2= promise2();
+        let p3= promise3();
+        let p4= promise4();
+
+        let promises=await Promise.all([p1,p2,p3,p4]);
+        console.log(promises)
         console.timeEnd(); // End timer
     } catch (error) {
         console.log("Something went wrong:", error);
