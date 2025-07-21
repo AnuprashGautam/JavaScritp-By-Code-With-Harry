@@ -22,7 +22,7 @@ class ComplexNumber{
     }
     set setImaginary(imaginary)
     {
-        this.imaginary=this.imaginary;
+        this.imaginary=imaginary;
     }
 }
 
@@ -56,4 +56,8 @@ console.log(std instanceof Human)
 // ******************************************************************************************************************
 
 console.log(c1.getReal);
+console.log(c1.getImaginary);
+
+c1.setImaginary=3;
+
 console.log(c1.getImaginary);
