@@ -9,6 +9,10 @@ class College{
     collegeDetails(){
         console.log(`Your college name is ${this.name}. It is located in ${this.address}. And, it is ${this.experience} years old.`);
     }
+
+    rating(){
+        console.log('We are the best college. And, we deliever the 100% placement.');
+    }
 }
 
 class Student extends College{
@@ -32,9 +36,16 @@ class Student extends College{
         super.address=address;
         console.log('Your college address got changed successfully.');
     }
+
+    rating(){
+        console.log('This is the worst college. And, they deliever no placement.');
+    }
 }
 
 let std=new Student('MIET','Meerut',14,'Anuprash',22);
 std.studentDetails();
 std.changeCollge('MIT');
 std.changeCollgeAddress('Lucknow');
+
+new College('MIET','Meerut',25).rating();
+std.rating();
