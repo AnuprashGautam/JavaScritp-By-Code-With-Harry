@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="clock-container">
+    <h1>Alarm Clock</h1>
+
+    <h2>Current Time: <span id="current-time">--:--:--</span></h2>
+
+    <h2>Set Alarm</h2>
+    <input id='alarm-time' type="time">
+
+    <div class="clock-container__buttons">
+        <div>
+            <button id="set-alarm">Set</button>
+        </div>
+        <div>
+            <button id="clear-alarm">Clear</button>
+        </div>
+    </div>
+
+    <audio id="alarm-song" src="./Alarm Tone/iphone_alarm.mp3" preload="auto">Alarm Song</audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
