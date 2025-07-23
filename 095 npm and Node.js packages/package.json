@@ -1,0 +1,17 @@
+{
+  "name": "095-npm-and-node.js-packages",
+  "version": "1.0.0",
+  "description": "Project for creating the pdf.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "node-fetch": "^3.2.6",
+    "pdf-node": "^1.0.0"
+  }
+}
