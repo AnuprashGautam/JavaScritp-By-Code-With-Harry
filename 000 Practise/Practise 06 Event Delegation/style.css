@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    background: linear-gradient(to top, blue, rgba(0,0,0, 0.4));
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+li{
+    text-align: center;
+    display: block;
+    border: 2px solid white;
+    padding: 10px;
+    margin-block: 5px;
+}
